@@ -1,0 +1,134 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #c9c5d4;
+    color: #333;
+}
+
+header {
+    background-color: #050505;
+    color: rgb(245, 243, 243);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #D4AF37;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("https://oem.com.mx/esto/img/27699851/1755710740/BASE_LANDSCAPE/1200/image.webp")
+    center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #ffbd17;
+    color: #333;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #af9f0e;
+}
+
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    color: #d00000;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.producto {
+    background-color: rgb(241, 240, 243);
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin: 15px 0 10px;
+    color: #e85d04;
+}
+
+.precio {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #9d0208;
+    margin: 15px 0;
+}
+
+.contacto {
+    background-color: #ffba08;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #370617;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
